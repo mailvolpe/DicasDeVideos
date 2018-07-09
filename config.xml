@@ -10,4 +10,10 @@
     <content src="index.html" />
     <access origin="*" />
     <gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>
+
+    <platform name="android">
+        <preference name="AndroidLaunchMode" value="singleTop"/>
+        <preference name="android-minSdkVersion" value="26" />
+    </platform>
+
 </widget>
